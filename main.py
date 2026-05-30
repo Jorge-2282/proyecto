@@ -15,7 +15,7 @@ collection = db.Proyectopescera
 def root():
     return {"mensaje": "API funcionando"}
 
-@app.post("/sensor")
+@app.post("/Proyectopescera")
 def guardar_sensor(data: dict):
 
     collection.insert_one(data)
