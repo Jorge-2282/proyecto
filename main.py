@@ -9,7 +9,7 @@ MONGO_URI = "mongodb+srv://esp32:esp32pass@cluster0.uktqifs.mongodb.net/iot"
 client = MongoClient(MONGO_URI)
 
 db = client.iot
-collection = db.Proyectopecera
+collection = db.Proyectopescera
 
 @app.get("/")
 def root():
