@@ -4,7 +4,7 @@ from pymongo import MongoClient
 app = FastAPI()
 
 # Conexión MongoDB Atlas
-MONGO_URI = "mongodb+srv://esp32:esp32pass@cluster0.xxxxx.mongodb.net/iot"
+MONGO_URI = "mongodb+srv://esp32:esp32pass@cluster0.uktqifs.mongodb.net/iot"
 
 client = MongoClient(MONGO_URI)
 
